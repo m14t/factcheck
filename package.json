@@ -5,11 +5,17 @@
   "main": "handler.js",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
     "flow-bin": "^0.34.0"
   },
   "scripts": {
+    "lint": "eslint --ignore-pattern '!.eslintrc.js' .eslintrc.js *.js",
     "flow": "flow; test $? -eq 0 -o $? -eq 2",
-    "test": "npm run flow"
+    "test": "npm run flow && npm run lint"
   },
   "repository": {
     "type": "git",
