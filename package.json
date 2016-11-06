@@ -1,0 +1,22 @@
+{
+  "name": "factcheck",
+  "version": "0.0.0",
+  "description": "AWS Lambda functions to search Snopes.com and reply to emails with results",
+  "main": "handler.js",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/m14t/factcheck.git"
+  },
+  "author": "Matt Farmer <work@mattfarmer.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m14t/factcheck/issues"
+  },
+  "homepage": "https://github.com/m14t/factcheck#readme"
+}
